@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Booklet paged.js</title>
+  <link rel="stylesheet" type="text/css" href="css/main.css" />
+  <link rel="stylesheet" type="text/css" href="css/interface.css" />
+  <link rel="stylesheet" type="text/css" href="css/capture.css" />
+  <script src="https://unpkg.com/css-tree@1.1.2/dist/csstree.min.js"></script>
+  <script src="js/paged.polyfill.js"></script>
+  <script src="js/interface.js"></script>
+  <script src="js/imposition.js"></script>
+
+  <style data-pagedjs-inserted-styles="true">
+    .modal,
+    .tools {
+      position: fixed;
+    }
+
+
+
+    @media print {
+      .tools {
+        display: none !important;
+      }
+    }
+  </style>
+
+</head>
+
+<body>
+
+  <section class="front-cover">
+    <article class="cover-1">
+      <p>CTRL Alt print</p>
+      <p>Paged.js – Ex. Imposition</p>
+      <p>Source: Julien Taquet, Quentin Juhel &amp; Julien Bidoret gitlab.pagedmedia.org</p>
+
+      <p>Après l’action de Paged.js, l’ordre des pages du document est remanié pour pouvoir être imprimé directement en
+        livret imposé. </p>
+    </article>
+
+    <!--  book 2e de couv / pour ajouter une page blanche, faire une section avec la classe "empty" -->
+    <section class="empty">
+
+    </section>
+    <article class="cover-2">
+      <div class="info">
+        <h1> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla neque, aut nam dolorum facilis, veniam harum
+          error provident quidem itaque ipsam quo eveniet exercitationem nostrum minima et, aliquam odit est! Lorem
+          ipsum dolor sit amet consectetur adipisicing elit. Quasi dolor eaque veritatis unde illum sit maxime ullam
+          atque odio praesentium alias cumque consectetur, a dolore. Quaerat voluptatum numquam tenetur minus.</h1>
+      </div>
+    </article>
+  </section>
+
+  <section class="empty"></section>
+
+  <!-- book text content -->
+  <section>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Non aspernatur iusto soluta? Libero culpa voluptas adipisci
+    nihil quibusdam nulla minus vero magnam quo odit ut, praesentium esse illum debitis rem. Lorem ipsum dolor sit amet
+    consectetur adipisicing elit. Nobis nihil consequatur dolorem maxime blanditiis odit unde delectus doloribus autem
+    ad exercitationem, non eveniet perspiciatis ipsam animi deserunt perferendis itaque quidem. Lorem, ipsum dolor sit
+    amet consectetur adipisicing elit. Nam, atque hic dolores repudiandae quia eaque facilis corrupti, architecto
+    voluptatibus accusamus non vitae aut. Esse iste velit tempore sunt, deleniti minima?
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Non aspernatur iusto soluta? Libero culpa voluptas adipisci
+    nihil quibusdam nulla minus vero magnam quo odit ut, praesentium esse illum debitis rem. Lorem ipsum dolor sit amet
+    consectetur adipisicing elit. Nobis nihil consequatur dolorem maxime blanditiis odit unde delectus doloribus autem
+    ad exercitationem, non eveniet perspiciatis ipsam animi deserunt perferendis itaque quidem. Lorem, ipsum dolor sit
+    amet consectetur adipisicing elit. Nam, atque hic dolores repudiandae quia eaque facilis corrupti, architecto
+    voluptatibus accusamus non vitae aut. Esse iste velit tempore sunt, deleniti minima?
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Non aspernatur iusto soluta? Libero culpa voluptas adipisci
+    nihil quibusdam nulla minus vero magnam quo odit ut, praesentium esse illum debitis rem. Lorem ipsum dolor sit amet
+    consectetur adipisicing elit. Nobis nihil consequatur dolorem maxime blanditiis odit unde delectus doloribus autem
+    ad exercitationem, non eveniet perspiciatis ipsam animi deserunt perferendis itaque quidem. Lorem, ipsum dolor sit
+    amet consectetur adipisicing elit. Nam, atque hic dolores repudiandae quia eaque facilis corrupti, architecto
+    voluptatibus accusamus non vitae aut. Esse iste velit tempore sunt, deleniti minima?
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Non aspernatur iusto soluta? Libero culpa voluptas adipisci
+    nihil quibusdam nulla minus vero magnam quo odit ut, praesentium esse illum debitis rem. Lorem ipsum dolor sit amet
+    consectetur adipisicing elit. Nobis nihil consequatur dolorem maxime blanditiis odit unde delectus doloribus autem
+    ad exercitationem, non eveniet perspiciatis ipsam animi deserunt perferendis itaque quidem. Lorem, ipsum dolor sit
+    amet consectetur adipisicing elit. Nam, atque hic dolores repudiandae quia eaque facilis corrupti, architecto
+    voluptatibus accusamus non vitae aut. Esse iste velit tempore sunt, deleniti minima?
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Non aspernatur iusto soluta? Libero culpa voluptas adipisci
+    nihil quibusdam nulla minus vero magnam quo odit ut, praesentium esse illum debitis rem. Lorem ipsum dolor sit amet
+    consectetur adipisicing elit. Nobis nihil consequatur dolorem maxime blanditiis odit unde delectus doloribus autem
+    ad exercitationem, non eveniet perspiciatis ipsam animi deserunt perferendis itaque quidem. Lorem, ipsum dolor sit
+    amet consectetur adipisicing elit. Nam, atque hic dolores repudiandae quia eaque facilis corrupti, architecto
+    voluptatibus accusamus non vitae aut. Esse iste velit tempore sunt, deleniti minima?
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Non aspernatur iusto soluta? Libero culpa voluptas adipisci
+    nihil quibusdam nulla minus vero magnam quo odit ut, praesentium esse illum debitis rem. Lorem ipsum dolor sit amet
+    consectetur adipisicing elit. Nobis nihil consequatur dolorem maxime blanditiis odit unde delectus doloribus autem
+    ad exercitationem, non eveniet perspiciatis ipsam animi deserunt perferendis itaque quidem. Lorem, ipsum dolor sit
+    amet consectetur adipisicing elit. Nam, atque hic dolores repudiandae quia eaque facilis corrupti, architecto
+    voluptatibus accusamus non vitae aut. Esse iste velit tempore sunt, deleniti minima?
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Non aspernatur iusto soluta? Libero culpa voluptas adipisci
+    nihil quibusdam nulla minus vero magnam quo odit ut, praesentium esse illum debitis rem. Lorem ipsum dolor sit amet
+    consectetur adipisicing elit. Nobis nihil consequatur dolorem maxime blanditiis odit unde delectus doloribus autem
+    ad exercitationem, non eveniet perspiciatis ipsam animi deserunt perferendis itaque quidem. Lorem, ipsum dolor sit
+    amet consectetur adipisicing elit. Nam, atque hic dolores repudiandae quia eaque facilis corrupti, architecto
+    voluptatibus accusamus non vitae aut. Esse iste velit tempore sunt, deleniti minima?
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Non aspernatur iusto soluta? Libero culpa voluptas adipisci
+    nihil quibusdam nulla minus vero magnam quo odit ut, praesentium esse illum debitis rem. Lorem ipsum dolor sit amet
+    consectetur adipisicing elit. Nobis nihil consequatur dolorem maxime blanditiis odit unde delectus doloribus autem
+    ad exercitationem, non eveniet perspiciatis ipsam animi deserunt perferendis itaque quidem. Lorem, ipsum dolor sit
+    amet consectetur adipisicing elit. Nam, atque hic dolores repudiandae quia eaque facilis corrupti, architecto
+    voluptatibus accusamus non vitae aut. Esse iste velit tempore sunt, deleniti minima?
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Non aspernatur iusto soluta? Libero culpa voluptas adipisci
+    nihil quibusdam nulla minus vero magnam quo odit ut, praesentium esse illum debitis rem. Lorem ipsum dolor sit amet
+    consectetur adipisicing elit. Nobis nihil consequatur dolorem maxime blanditiis odit unde delectus doloribus autem
+    ad exercitationem, non eveniet perspiciatis ipsam animi deserunt perferendis itaque quidem. Lorem, ipsum dolor sit
+    amet consectetur adipisicing elit. Nam, atque hic dolores repudiandae quia eaque facilis corrupti, architecto
+    voluptatibus accusamus non vitae aut. Esse iste velit tempore sunt, deleniti minima?
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Non aspernatur iusto soluta? Libero culpa voluptas adipisci
+    nihil quibusdam nulla minus vero magnam quo odit ut, praesentium esse illum debitis rem. Lorem ipsum dolor sit amet
+    consectetur adipisicing elit. Nobis nihil consequatur dolorem maxime blanditiis odit unde delectus doloribus autem
+    ad exercitationem, non eveniet perspiciatis ipsam animi deserunt perferendis itaque quidem. Lorem, ipsum dolor sit
+    amet consectetur adipisicing elit. Nam, atque hic dolores repudiandae quia eaque facilis corrupti, architecto
+    voluptatibus accusamus non vitae aut. Esse iste velit tempore sunt, deleniti minima?
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Non aspernatur iusto soluta? Libero culpa voluptas adipisci
+    nihil quibusdam nulla minus vero magnam quo odit ut, praesentium esse illum debitis rem. Lorem ipsum dolor sit amet
+    consectetur adipisicing elit. Nobis nihil consequatur dolorem maxime blanditiis odit unde delectus doloribus autem
+    ad exercitationem, non eveniet perspiciatis ipsam animi deserunt perferendis itaque quidem. Lorem, ipsum dolor sit
+    amet consectetur adipisicing elit. Nam, atque hic dolores repudiandae quia eaque facilis corrupti, architecto
+    voluptatibus accusamus non vitae aut. Esse iste velit tempore sunt, deleniti minima?
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Non aspernatur iusto soluta? Libero culpa voluptas adipisci
+    nihil quibusdam nulla minus vero magnam quo odit ut, praesentium esse illum debitis rem. Lorem ipsum dolor sit amet
+    consectetur adipisicing elit. Nobis nihil consequatur dolorem maxime blanditiis odit unde delectus doloribus autem
+    ad exercitationem, non eveniet perspiciatis ipsam animi deserunt perferendis itaque quidem. Lorem, ipsum dolor sit
+    amet consectetur adipisicing elit. Nam, atque hic dolores repudiandae quia eaque facilis corrupti, architecto
+    voluptatibus accusamus non vitae aut. Esse iste velit tempore sunt, deleniti minima?
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Non aspernatur iusto soluta? Libero culpa voluptas adipisci
+    nihil quibusdam nulla minus vero magnam quo odit ut, praesentium esse illum debitis rem. Lorem ipsum dolor sit amet
+    consectetur adipisicing elit. Nobis nihil consequatur dolorem maxime blanditiis odit unde delectus doloribus autem
+    ad exercitationem, non eveniet perspiciatis ipsam animi deserunt perferendis itaque quidem. Lorem, ipsum dolor sit
+    amet consectetur adipisicing elit. Nam, atque hic dolores repudiandae quia eaque facilis corrupti, architecto
+    voluptatibus accusamus non vitae aut. Esse iste velit tempore sunt, deleniti minima?
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Non aspernatur iusto soluta? Libero culpa voluptas adipisci
+    nihil quibusdam nulla minus vero magnam quo odit ut, praesentium esse illum debitis rem. Lorem ipsum dolor sit amet
+    consectetur adipisicing elit. Nobis nihil consequatur dolorem maxime blanditiis odit unde delectus doloribus autem
+    ad exercitationem, non eveniet perspiciatis ipsam animi deserunt perferendis itaque quidem. Lorem, ipsum dolor sit
+    amet consectetur adipisicing elit. Nam, atque hic dolores repudiandae quia eaque facilis corrupti, architecto
+    voluptatibus accusamus non vitae aut. Esse iste velit tempore sunt, deleniti minima?
+
+  </section>
+  <!--  book 4e de couv  -->
+  <section class="back-cover">
+
+    <article class="cover-3-4">
+
+
+      <div class="colophon">
+      </div>
+    </article>
+
+  </section>
+
+
+
+
+</body>
+
+</html>
